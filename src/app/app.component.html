@@ -1,0 +1,16 @@
+<label (change)="radioButtonChanged($event)">
+  <input type="radio" checked name="one" value="one" /> One</label
+>
+<label (change)="radioButtonChanged($event)">
+  <input type="radio" name="one" value="two" /> Two</label
+>
+<label (change)="radioButtonChanged($event)">
+  <input type="radio" name="one" value="three" /> Three</label
+>
+<label (change)="radioButtonChanged($event)">
+  <input type="radio" name="one" value="four" /> Four</label
+>
+<h1 #one *ngIf="radioValue === 'one'">Amit Kumar Saini</h1>
+<h1 #two *ngIf="radioValue === 'two'">Anjali Saini</h1>
+<h1 #one *ngIf="radioValue === 'three'">Arnav Saini</h1>
+<h1 #two *ngIf="radioValue === 'four'">Aarohi Saini</h1>
